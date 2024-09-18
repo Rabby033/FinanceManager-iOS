@@ -7,40 +7,41 @@
 
 import SwiftUI
 
-struct OnboardingPage2: View {
+struct OnboardingPage3: View {
     
     @State private var permission: Bool = false
     
     var body: some View {
         VStack {
-            Image("notification")
+            Image("crash_analytics")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .padding(.all,100)
+                .frame(width: 250,height:250)
+                .padding(.bottom,50)
             
-            Text("Would you like to get Reminder to add your daily transaction?")
+            Text("Help improving FinanceManger by sending usage statistics and crash reports.")
                 .fontWeight(.bold)
                 .font(.body)
                 .foregroundColor(.green)
                 .padding(.horizontal,30)
+                .padding(.bottom,30)
             
             HStack{
                 
                 Toggle(isOn: $permission, label: {
-                    Text("Show reminder notification")
+                    Text("Send crash & usage statistics")
                         .font(.body)
                         .fontWeight(.semibold)
                 })
-                .padding(.horizontal,50)
             }
+            .padding(.horizontal,30)
             
              
-            
             Spacer()
         }
     }
 }
 
 #Preview {
-    OnboardingPage2()
+    OnboardingPage3()
 }

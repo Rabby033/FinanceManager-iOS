@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522C31992C9B3B89000F58E8 /* OnboardingPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C31982C9B3B89000F58E8 /* OnboardingPage3.swift */; };
+		522C319C2C9B42A6000F58E8 /* AppKeyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C319B2C9B42A6000F58E8 /* AppKeyEnum.swift */; };
 		526E43382C98650C0017C3DE /* FinanceManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E43372C98650C0017C3DE /* FinanceManagerApp.swift */; };
 		526E433A2C98650C0017C3DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E43392C98650C0017C3DE /* ContentView.swift */; };
 		526E433C2C98650F0017C3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526E433B2C98650F0017C3DE /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		522C31982C9B3B89000F58E8 /* OnboardingPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage3.swift; sourceTree = "<group>"; };
+		522C319B2C9B42A6000F58E8 /* AppKeyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKeyEnum.swift; sourceTree = "<group>"; };
 		526E43342C98650C0017C3DE /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526E43372C98650C0017C3DE /* FinanceManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceManagerApp.swift; sourceTree = "<group>"; };
 		526E43392C98650C0017C3DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		522C31962C9B3B41000F58E8 /* OnboardingPage2 */ = {
+			isa = PBXGroup;
+			children = (
+				528872E72C999D4A00704892 /* onboardingPage2.swift */,
+			);
+			path = OnboardingPage2;
+			sourceTree = "<group>";
+		};
+		522C31972C9B3B6A000F58E8 /* OnboardingPage3 */ = {
+			isa = PBXGroup;
+			children = (
+				522C31982C9B3B89000F58E8 /* OnboardingPage3.swift */,
+			);
+			path = OnboardingPage3;
+			sourceTree = "<group>";
+		};
 		526E432B2C98650C0017C3DE = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +131,6 @@
 				526E43372C98650C0017C3DE /* FinanceManagerApp.swift */,
 				526E433B2C98650F0017C3DE /* Assets.xcassets */,
 				526E433D2C98650F0017C3DE /* Preview Content */,
-				528872E72C999D4A00704892 /* onboardingPage2.swift */,
 			);
 			path = FinanceManager;
 			sourceTree = "<group>";
@@ -145,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				528872E52C99944000704892 /* PreferenceRepository.swift */,
+				522C319B2C9B42A6000F58E8 /* AppKeyEnum.swift */,
 			);
 			path = PreferenceRepository;
 			sourceTree = "<group>";
@@ -154,6 +174,8 @@
 			children = (
 				528872F22C9A034900704892 /* OnboardingCommon */,
 				528872F12C9A029400704892 /* OnboardingPage1 */,
+				522C31962C9B3B41000F58E8 /* OnboardingPage2 */,
+				522C31972C9B3B6A000F58E8 /* OnboardingPage3 */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -311,7 +333,9 @@
 				528872E62C99944000704892 /* PreferenceRepository.swift in Sources */,
 				526E43662C98A1E30017C3DE /* OnboardingPage1.swift in Sources */,
 				528872F02C9A018400704892 /* OnboardingNextButtton.swift in Sources */,
+				522C31992C9B3B89000F58E8 /* OnboardingPage3.swift in Sources */,
 				526E433A2C98650C0017C3DE /* ContentView.swift in Sources */,
+				522C319C2C9B42A6000F58E8 /* AppKeyEnum.swift in Sources */,
 				528872E82C999D4A00704892 /* onboardingPage2.swift in Sources */,
 				526E43382C98650C0017C3DE /* FinanceManagerApp.swift in Sources */,
 				528872EC2C9A005C00704892 /* OnboardingTopView.swift in Sources */,

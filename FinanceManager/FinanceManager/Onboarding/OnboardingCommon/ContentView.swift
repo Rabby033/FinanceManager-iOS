@@ -41,7 +41,7 @@ struct OnboardingScreen : View {
                             case 1:
                                 OnboardingPage2()
                             case 2:
-                                OnboardingPage1()
+                                OnboardingPage3()
                             default:
                                 Text("fatal error")
                             }

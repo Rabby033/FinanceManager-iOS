@@ -24,7 +24,9 @@ struct OnboardingTopView: View {
                 
                 Image(systemName: "chevron.backward.circle")
                     .resizable()
+                    .renderingMode(.template)
                     .frame(width: 30, height: 30)
+                    .foregroundColor(.green)
                     .padding()
                     .onTapGesture {
                         selectedIndex -= 1
@@ -40,7 +42,7 @@ struct OnboardingTopView: View {
                     gotoDashboard = true
                 }, label: {
                     Text("Skip")
-                        .foregroundColor(.gray)
+                        .foregroundColor(.green)
                         .fontWeight(.semibold)
                         .kerning(1.4)
                     
