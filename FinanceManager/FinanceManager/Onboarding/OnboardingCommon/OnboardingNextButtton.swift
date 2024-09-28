@@ -17,13 +17,9 @@ struct ButtonView: View {
             Button(action: {
                 
                 print("current page \(selectedIndex)")
-                print(PreferenceRepositoryImpl().getValue(key: AppKeyEnum.CURRENCEY_SIGN.rawValue))
                 
                 if selectedIndex < 3 {
-                    withAnimation{
-                        selectedIndex += 1
-                    }
-                    
+                    selectedIndex += 1
                 }
                 
             }, label: {
