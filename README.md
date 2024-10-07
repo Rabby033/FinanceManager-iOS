@@ -1,2 +1,2 @@
-#Finance Manager
-##Your personal money manager
+# Finance Manager
+## Your personal money manager
