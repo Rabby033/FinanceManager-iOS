@@ -9,71 +9,17 @@ import SwiftUI
 
 struct RecordsView: View {
     var body: some View {
-        
         VStack {
-            HStack (spacing: 30) {
+            
+            VStack {
                 
-                Image(systemName: "arrowtriangle.backward.fill")
-                    .font(.title3)
-                    .foregroundColor(.green)
-                
-                Text("September, 2024")
-                    .fontWeight(.regular)
-                    .foregroundColor(.green)
-                    .font(.title3)
-                
-                Image(systemName: "arrowtriangle.forward.fill")
-                    .font(.title3)
-                    .foregroundColor(.green)
+                    transactionViewCell()
+                    transactionViewCell()
+                    transactionViewCell()
+                    transactionViewCell()
+                    transactionViewCell()
             }
-            
-            HStack (spacing: 50){
-                VStack {
-                    Text("EXPENSE")
-                    Text("$1,310.00")
-                        .foregroundColor(.red)
-                }
-                
-                VStack {
-                    Text("INCOME")
-                    Text("$1,310.00")
-                        .foregroundStyle(.green)
-                }
-                
-                VStack {
-                    Text("NET ")
-                    Text("$1,310.00")
-                        .foregroundColor(.red)
-                }
-            }
-            .padding(.top,5 )
-            
-            Divider()
-            Spacer()
-            
-            //            ScrollView{
-            //                ForEach(0..<20){ index in
-            //                    RecordsItem()
-            //                    Divider()
-            //                }
-            //            }
-            ScrollView {
-                LazyVStack{
-                    Section(header: Text("27 september")){
-                        ForEach(0..<20){ index in
-                            RecordsItem()
-                            Divider()
-                        }
-                    }
-                }
-            }
-            
-            
         }
-        .padding(.top,20)
-        
-//        Spacer()
-        
     }
 }
 

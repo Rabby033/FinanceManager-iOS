@@ -11,36 +11,47 @@ struct DashboardView: View {
     
     @State private var activeTab: Tab = .home
     @State private var tabShapePosition: CGPoint = .zero
-    @State private var isAddPressed: Bool = false
+    @State var isAddPressed: Bool = false
     
     var body: some View {
         
-        VStack(spacing: 0){
-            switch activeTab {
-            case .home:
-                HomeView()
-            case .transaction:
-                RecordsView()
-            case .budget:
-                BudgetView()
-            case .add:
-                HomeView()
-            case .profile:
-                SettingView()
-            }
-            ZStack {
-                if isAddPressed {
-                    plusMenu(widthAndHeight: 55)
-                        .padding(.top,-170)
-                        .transition(.scale)
-                    
+        NavigationView {
+            VStack(spacing: 0){
+                switch activeTab {
+                case .home:
+                    HomeView()
+                case .transaction:
+                    RecordsView()
+                case .budget:
+                    BudgetView()
+                case .add:
+                    HomeView()
+                case .profile:
+                    SettingView()
                 }
-                CustomTabBar()
+                ZStack {
+                    if isAddPressed {
+                        plusMenu(widthAndHeight: 55, isAddPressed: $isAddPressed)
+                            .padding(.top,-170)
+                            .transition(.scale)
+                        
+                    }
+                    CustomTabBar()
+                }
+                
+                
             }
-            
-            
+            .navigationBarHidden(true)
+            .onAppear{
+                if isAddPressed {
+                    isAddPressed.toggle()
+                }
+            }
         }
         .navigationBarHidden(true)
+        .hideKeyboardOnTap()
+        
+        
     }
     
     @ViewBuilder
@@ -84,7 +95,7 @@ struct TabItem: View {
                 .foregroundColor(
                     tab == activeTab ? fill_color : Color.gray
                 )
-                .frame(width: tab.rawValue == "Add" ? 55 : 40, height: tab.rawValue == "Add" ? 55 : 40)
+                .frame(width: tab.rawValue == "Add" ? 55 : 30, height: tab.rawValue == "Add" ? 55 : 30)
                 .rotationEffect(Angle(degrees: isAddPressed ? tab.rawValue == "Add" ? 90 :0 : 0))
             
             
@@ -111,44 +122,6 @@ struct TabItem: View {
 }
 
 
-struct plusMenu : View {
-    
-    let widthAndHeight : CGFloat
-    
-    var body: some View {
-        
-        
-        VStack {
-            
-            ZStack {
-                RoundIconCellView(height: widthAndHeight, width: widthAndHeight, backgroundColor: .blue, iconName: "currency-exchange")
-                    .onTapGesture {
-                        print("currency exchanged clicked")
-                    }
-            }
-            
-            HStack (spacing: 60){
-                ZStack {
-                    RoundIconCellView(height: widthAndHeight, width: widthAndHeight, backgroundColor: .green, iconName: "income")
-                        .onTapGesture {
-                            print("income add")
-                        }
-                }
-                ZStack {
-                    RoundIconCellView(height: widthAndHeight, width: widthAndHeight, backgroundColor: .red, iconName: "expense")
-                        .onTapGesture {
-                            print("expense add")
-                        }
-                }
-            }
-        }
-        
-    }
-}
-
-
-
-
 struct RoundIconCellView: View {
     
     var height: CGFloat
@@ -171,6 +144,11 @@ struct RoundIconCellView: View {
             )
     }
 }
+
+
+
+
+
 #Preview {
     DashboardView()
 }

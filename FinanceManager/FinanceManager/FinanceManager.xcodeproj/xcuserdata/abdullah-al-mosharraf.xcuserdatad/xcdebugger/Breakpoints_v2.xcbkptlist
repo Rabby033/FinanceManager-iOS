@@ -20,5 +20,238 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "429F30CB-D048-43D0-B740-26EB555BC879"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "429F30CB-D048-43D0-B740-26EB555BC879 - 92a7a7b7eb0a208c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; _PhotosUI_SwiftUI.PhotosPicker&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in FinanceManager.addAttachmentViewCell.body.getter : some"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "284"
+                  endingLineNumber = "284"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "429F30CB-D048-43D0-B740-26EB555BC879 - d566ba8c8a7cefd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; _PhotosUI_SwiftUI.PhotosPicker&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in FinanceManager.addAttachmentViewCell.body.getter : some"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "284"
+                  endingLineNumber = "284"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "429F30CB-D048-43D0-B740-26EB555BC879 - fe53e026a6b10751"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(_PhotosUI_SwiftUI.PhotosPicker&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in FinanceManager.addAttachmentViewCell.body.getter : some"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "292"
+                  endingLineNumber = "292"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "429F30CB-D048-43D0-B740-26EB555BC879 - fe53e026a6b11afd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(_PhotosUI_SwiftUI.PhotosPicker&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in FinanceManager.addAttachmentViewCell.body.getter : some"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "320"
+                  endingLineNumber = "320"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "photosPickerViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6 - 239c5edf1d89d8b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of FinanceManager.photosPickerViewModel.selectedImage : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6 - 90e8acf264f710aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceManager.photosPickerViewModel.selectedImage.getter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6 - 2ccdb6f90add74a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceManager.photosPickerViewModel.selectedImage.setter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6 - ba07d0d1be26b5b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceManager.photosPickerViewModel.$selectedImage.getter : Combine.Published&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;.Publisher"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "244"
+                  endingLineNumber = "244"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6 - cc37a08a844400ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceManager.photosPickerViewModel.$selectedImage.setter : Combine.Published&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;.Publisher"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6 - ba07d0d1be26b45a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceManager.photosPickerViewModel.$selectedImage.getter : Combine.Published&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;.Publisher"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "247"
+                  endingLineNumber = "247"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1EA9BE8F-ED4A-4A8B-BDFB-08D0775CE8C6 - ba07d0d1be26b1b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceManager.photosPickerViewModel.$selectedImage.getter : Combine.Published&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;.Publisher"
+                  moduleName = "FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullah-al-mosharraf/Desktop/WeekendTask/FinanceManager/FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "275"
+                  endingLineNumber = "275"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62184FA7-9366-4EF3-8E25-E698347582F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "imageSelection"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C76BB2F1-6ECE-4273-8CE1-3B751798EA8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanceManager/Dashboard/DetailsPage/View/CommonDetailsPageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "setImage(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

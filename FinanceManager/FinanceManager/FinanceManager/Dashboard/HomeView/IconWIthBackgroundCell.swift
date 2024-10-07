@@ -10,22 +10,24 @@ import SwiftUI
 struct IconWIthBackgroundCell: View {
     
     @State var iconName : String
+    var themeColor: Color
+    var heightWidth : CGFloat
     
     var body: some View {
         
         Image(iconName)
             .resizable()
             .renderingMode(.template)
-            .foregroundColor(Color.pillTextColor)
+            .foregroundColor(themeColor)
             .aspectRatio(contentMode: .fit)
-            .frame(width: 40, height: 40)
-            .padding(.all,10)
+            .frame(width: heightWidth, height: heightWidth)
+            .padding(.all,8)
             .background(
-                Color.pillColor.cornerRadius(15)
+                themeColor.opacity(0.19).cornerRadius(15)
             )
     }
 }
 
 #Preview {
-    IconWIthBackgroundCell(iconName: "shopping-bag")
+    IconWIthBackgroundCell(iconName: "shopping-bag", themeColor: Color.CustomRed, heightWidth: 30)
 }

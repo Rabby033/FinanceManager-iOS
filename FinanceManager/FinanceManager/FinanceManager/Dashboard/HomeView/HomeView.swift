@@ -72,6 +72,9 @@ struct HomeView: View {
                 
                 pillView(pillColor: Color(red: 238/255, green: 230/255, blue: 255/255), pillTextColor: Color(red: 144/255, green: 87/255, blue: 255/255), title: "See All")
                     .padding(.trailing,10)
+                    .onTapGesture {
+                        
+                    }
                 
             }
             .padding(.top,8)
@@ -103,15 +106,15 @@ struct transactionViewCell: View {
     var body: some View {
         HStack (spacing:10){
             
-            IconWIthBackgroundCell(iconName: "shopping-bag")
+            IconWIthBackgroundCell(iconName: "shopping-bag", themeColor: Color.CustomBlue, heightWidth: 40)
             
             VStack (alignment: .leading,spacing:5){
                 Text("Shopping")
-                    .font(.title3)
-                    .fontWeight(.medium)
-                Text("Buy some grocery")
                     .font(.subheadline)
                     .fontWeight(.medium)
+                Text("Buy some grocery")
+                    .font(.system(size: 15))
+                    .fontWeight(.regular)
                     .foregroundColor(.gray)
             }
             Spacer()
@@ -122,8 +125,8 @@ struct transactionViewCell: View {
                     .fontWeight(.bold)
                     .foregroundColor(.red)
                 Text("10:00 AM")
-                    .font(.subheadline)
-                    .fontWeight(.medium)
+                    .font(.system(size: 15))
+                    .fontWeight(.regular)
                     .foregroundColor(.gray)
             }
         }
