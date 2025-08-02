@@ -1,7 +1,7 @@
 # Finance Manager
 # FinanceManageriOS
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]() [![iOS](https://img.shields.io/badge/platform-iOS-blue)]() [![Swift](https://img.shields.io/badge/swift-5.9-orange)]() [![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
+ [![iOS](https://img.shields.io/badge/platform-iOS-blue)]() [![Swift](https://img.shields.io/badge/swift-5.9-orange)]() [![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
 
 ## 🚀 Project Overview
 
