@@ -1,5 +1,5 @@
 # Finance Manager
-## Your Personal Finance Manager
+### Your Personal Finance Manager
 
  [![iOS](https://img.shields.io/badge/platform-iOS-blue)]() [![Swift](https://img.shields.io/badge/swift-5.9-orange)]() [![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
 
